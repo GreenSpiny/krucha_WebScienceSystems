@@ -1,0 +1,107 @@
+body {
+  background-color: #777;
+}
+
+h1 {
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: inherit;
+  font-family: Cambria;
+  font-weight: 700;
+}
+
+h2 {
+  color: #fff;
+  margin: 0px;
+  padding-left: 75px;
+  vertical-align: middle;
+  line-height: inherit;
+  font-family: Verdana;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#tweetArea {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  width: 800px;
+  height: 290px;
+  background: #59ADEB;
+  background: linear-gradient(#72D1EA,#59ADEB);
+  
+  border-radius: 10px;
+  
+  overflow: hidden;
+}
+
+.hBar {
+  position: absolute;
+  left: 275px;
+  width: 500px;
+  height: 60px;
+}
+
+#heading {
+  top: 10px;
+  line-height: 70px;
+}
+
+#user {
+  bottom: 10px;
+  line-height: 58px;
+}
+
+#user .icon {
+  border: 1px solid #aaf;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+
+.btn-default {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 10px;
+  font-size: 9px;
+  overflow: hidden;
+  font-family: Calibri;
+  white-space: normal;
+}
+
+#t0 {
+  top: -60px;
+}
+
+#t1 {
+  top: 10px;
+}
+
+#t2 {
+  top: 80px;
+}
+
+#t3 {
+  top: 150px;
+}
+
+#t4 {
+  top: 220px;
+}
+
+#t5 {
+  top: 85px;
+  left: 275px;
+  width: 500px;
+  height: 120px;
+  font-size: 20px;
+}

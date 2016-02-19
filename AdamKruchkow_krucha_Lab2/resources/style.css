@@ -1,0 +1,125 @@
+body {
+  background-image: url("SnowflakePattern.png");
+}
+
+.container {
+  max-width: 500px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+  
+  color: #345;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+#inputArea {
+  padding: 10px;
+  background-color: #ccf;
+  border: 2px solid #99b;
+  text-align: center;
+}
+
+#inputArea input {
+  text-align: center;
+}
+
+#precipitation {
+  text-align: center;
+  color: #334;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  
+  padding: 5px;
+  border-bottom: 1px solid #779;
+}
+
+#temperature {
+  text-align: center;
+  color: #37a;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  
+  padding: 5px;
+}
+
+.brief {
+  text-align: center;
+  color: #334;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  
+  padding: 5px;  
+}
+
+.left {
+  padding-top: 10px;
+}
+
+.right {
+  border-left: 1px solid #779;
+}
+
+.weatherArea {
+  background-color: #bbe;
+  border: 2px solid #99b;
+  border-top: none;
+}
+#current {
+  border-bottom-color: #668;
+}
+
+#daySelect {
+  background-color: #337ab7;
+  border-color: #668;
+}
+
+.forecast {
+  background-color: #bbd;
+  font-size: 18px;
+}
+
+.forecast .col-sm-1 {
+  min-height: 20px;
+  color: #cacaff;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+#forecastInfo {
+  padding: 0px;
+  margin: 0px;
+}
+
+.forecast div {
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18px;
+}
+
+#day {
+  background-color: #567;
+  color: #cacaff;
+  min-height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#smallPrecip {
+  border-left: 1px solid #779;
+  padding: 5px;
+  font-size: 22px;
+}
+
+#smallTemp {
+  font-size: 22px;
+  padding: 5px;
+}
