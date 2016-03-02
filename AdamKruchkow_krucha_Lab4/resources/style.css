@@ -1,0 +1,99 @@
+body {
+  background-color: #18A;
+}
+
+#main {
+  background-color: #DDD;
+  max-width: 1000px;
+  text-align: center;
+  border-top: 4px solid #3BD;
+  border-left: 4px solid #179;
+  border-right: 4px solid #179;
+  border-bottom: 4px solid #179;
+}
+
+#header {
+  font-family: Cambria;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFF;
+
+  background-color: #5DF;
+  border-bottom: 4px solid #3BD;
+}
+
+.query p, input {
+  margin: 0px;
+  padding: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.query {
+  font-family: Arial;
+  font-weight: 700;
+
+  height: 65px;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 4px solid #BBC;
+}
+
+.allAreas {
+  font-family: Verdana;
+  font-size: 14px;
+  text-align: left;
+  padding: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .allAreas {
+    font-size: 10px;
+    padding: 15px;
+  } 
+}
+
+@media screen and (min-width: 0px) {
+
+  .textArea {
+    color: #fff;
+    background-color: #39B;
+    height: 90px;
+  }
+
+  .hashArea {
+    color: #7DF;
+    background-color: #057;
+    height: 40px;
+    font-weight: 700;
+    border-bottom: 4px solid #179;
+    padding: 10px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .textArea {
+    color: #fff;
+    background-color: #39B;
+    height: 90px;
+    border-bottom: 4px solid #3BD;
+    border-right: 2px solid #3BD;
+  }
+
+  .hashArea {
+    color: #7DF;
+    background-color: #057;
+    height: 90px;
+    font-weight: 700;
+    border-bottom: 4px solid #179;
+    border-left: 2px solid #179;
+  }
+
+}
+
+.yellow {
+  color: #FF0;
+}

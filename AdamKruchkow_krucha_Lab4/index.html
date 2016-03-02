@@ -21,6 +21,29 @@
 
   <body>
 
+    <div class="container" id="main" ng-app="application" ng-controller="controller">
+    
+      <p class="row" id="header">Live Tweet Parser</p>
+      
+      <div class="row">
+        <div class="query col-md-6">
+          <p>Query by text:</p>
+          <input type="text" id="allText"></input>
+        </div>
+        
+        <div class="query col-md-6"">
+          <p>Query by hash:</p>
+          <input type="text" id="hashText"></input>
+        </div>
+      </div>
+      
+      <div id="tweets">
+      
+      </div>
+    
+    
+    </div>
+  
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
