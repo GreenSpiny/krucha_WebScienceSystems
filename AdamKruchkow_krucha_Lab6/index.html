@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+  
+    <!-- JQuery -->
+    <script src="resources/jquery-2.1.4.min.js" type="text/javascript"></script>
+    
+    <!-- Boostrap -->
+    <link href="resources/bootstrap-3.3.6-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    
+    <!-- Custom Files ---> 
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="functions.js" type="text/javascript"></script>
+  
+  </head>
+
+  <body>
+  
+  <div class="container">
+  
+    <h1>~ GreenTweets ~</h1>
+    <h2>Export tweets matching the query to JSON or CSV format!</h2>
+  
+    <form id="queryArea" class="form-group">
+      <label for="query">Query:</label>
+      <input id="query" class="input-md form-control" type="text" data-toggle="popover" data-content="Must have a value." trigger="manual"></input>
+      <label for="amount">Amount:</label>
+      <input id="amount" name="amount" class="input-sm form-control" type="number" min=1 max=100 value=5 data-toggle="popover" data-content="Must be an integer from 1 to 100." trigger="manual"></input>
+    </form>
+  
+    <div class="text-center">
+      <div id="exportOptions" class="btn-group btn-group-lg">
+        <button id="jsonBTN" value=0 class="btn btn-warning">JSON</button>
+        <button id="csvBTN" value=1 class="btn btn-info">CSV</button>
+      </div>
+    </div>
+    
+    <button id="submitBTN" class="btn btn-primary btn-block">Export</button>
+    
+  </div>
+  
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="resources/bootstrap-3.3.6-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  
+  </body>
+
+</html>
