@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+  
+    <!-- JQuery -->
+    <script src="resources/jquery-2.1.4.min.js" type="text/javascript"></script>
+    
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js" type="text/javascript"></script>
+    
+    <!-- Boostrap -->
+    <link href="resources/bootstrap-3.3.6-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    
+    <!-- Custom Files ---> 
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="display.js" type="text/javascript"></script>
+  
+  </head>
+
+  <body>
+
+    <div class="container" id="main" ng-app="application" ng-controller="controller">
+    
+      <p class="row" id="header">Tweet Streamer</p>
+      
+      <div class="row">
+        <div class="query col-md-4">
+          <p>SW coords:</p>
+          <input type="text" value="-73.68,42.72" id="SW"></input>
+        </div>
+        
+        <div class="query col-md-4">
+          <p>NE coords:</p>
+          <input type="text" value="-73.67,42.73" id="NE"></input>
+        </div>
+        
+        <div class="query col-md-4">
+          <p>Quantity:</p>
+          <input type="number" value="5" max="10" min="1" id="quantity"></input>
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        <button id="submit" onclick="readJSON()" class="btn-block btn-primary">Submit!</button>
+      </div>
+      
+      <div id="tweets">
+      
+      </div>
+    
+    
+    </div>
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="resources/bootstrap-3.3.6-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  
+  </body>
+
+</html>
